@@ -1,26 +1,26 @@
-#Screen Design
-*This is the basic screen design for the first draft of my project
+# Screen Design
+* This is the basic screen design for the first draft of my project
 
-###Index
+### Index
 ![Screen Design] (images/Screens/index.png)
 
-###Sandbox Draft
+### Sandbox Draft
 ![Screen Design] (images/Screens/SandboxDraftForm.png)
 
-###Priority Draft
+### Priority Draft
 ![Screen Design] (images/Screens/PriorityDraftForm.png)
 
-###Head To Head
+### Head To Head
 ![Screen Design] (images/Screens/HeadToHead.png)
 
-###Login User
+### Login User
 ![Screen Design] (images/Screens/LoginUser.png)
 
-###Login Admin
+### Login Admin
 ![Screen Design] (images/Screens/LoginAdmin.png)
 
-###Admin Tools Navigation
+### Admin Tools Navigation
 ![Screen Design] (images/Screens/AdminToolsNav.png)
 
-###Admin Tools Form Layout
+### Admin Tools Form Layout
 ![Screen Design] (images/Screens/AdminToolsForm.png)
