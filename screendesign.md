@@ -2,10 +2,10 @@
 * This is the basic screen design for the first draft of my project
 
 ### Index
-![Screen Design](images/Screens/index.png)
+![Screen Design](images/Screens/Index.png)
 
 ### Sandbox Draft
-![Screen Design](images/Screens/SandboxDraftForm.png)
+![Screen Design](images/Screens/SandboxTeamForm.png)
 
 ### Priority Draft
 ![Screen Design](images/Screens/PriorityDraftForm.png)
