@@ -1,6 +1,6 @@
 # Database Design for Final Fantasy Football
 
-![Screen Design] (images/Screens/index.png)
+![Screen Design](images/Screens/index.png)
 
 * Users can have multiple teams
 
