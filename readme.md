@@ -35,8 +35,8 @@ the simulation 16 times, giving only the total season points and amounts of wins
 * Java
 * SQL
 
-* Screen Design (screendesign.md)
-* Database Design (databasedesign.md)
+* [Screen Design] (screendesign.md)
+* [Database Design] (databasedesign.md)
 
 * TimeLog (timelog.md)
 
