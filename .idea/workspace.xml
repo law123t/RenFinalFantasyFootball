@@ -94,8 +94,8 @@
       <file leaf-file-name="FootballDAOTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/matc/entjava/indivproj/persistence/FootballDAOTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
-              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,7 +182,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -212,83 +212,6 @@
             <path>
               <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="indivproj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="indivproj" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="indivproj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="indivproj" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -581,7 +504,7 @@
       <workItem from="1507046861115" duration="6132000" />
       <workItem from="1507066124535" duration="2637000" />
       <workItem from="1507071704836" duration="3170000" />
-      <workItem from="1507142320957" duration="4398000" />
+      <workItem from="1507142320957" duration="4490000" />
     </task>
     <servers />
   </component>
@@ -618,10 +541,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19257000" />
+    <option name="totallyTimeSpent" value="19349000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -966,8 +889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/matc/entjava/indivproj/persistence/FootballDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
