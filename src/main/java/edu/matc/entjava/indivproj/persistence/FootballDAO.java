@@ -14,7 +14,7 @@ public class FootballDAO {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
-    public List<Team> getAllTeam() {
+    public List<Team> getAllTeams() {
         List<Team> teams = new ArrayList<Team>();
         Session session = null;
         try {
@@ -88,14 +88,42 @@ public class FootballDAO {
         }
     }
 
-    public int insert(Team team) {
-        int id = 0;
+
+ public int insert(Team team) {
+    int id = 0;
+    Transaction transaction = null;
+    Session session = null;
+    try {
+        session = SessionFactoryProvider.getSessionFactory().openSession();
+        transaction = session.beginTransaction();
+        id = (int) session.save(team);
+        transaction.commit();
+    } catch (HibernateException he){
+        if (transaction != null) {
+            try {
+                transaction.rollback();
+            } catch (HibernateException he2) {
+                log.error("Error rolling back save of team: " + team, he2);
+            }
+        }
+    } finally {
+        if (session != null) {
+            session.close();
+        }
+    }
+    return id;
+}
+
+    public void deleteByID(int id) {
         Transaction transaction = null;
         Session session = null;
+        Team team = null;
         try {
+
             session = SessionFactoryProvider.getSessionFactory().openSession();
+            team = (Team) session.get(Team.class, id);
             transaction = session.beginTransaction();
-            id = (int) session.save(team);
+            session.delete(team);
             transaction.commit();
         } catch (HibernateException he){
             if (transaction != null) {
@@ -110,6 +138,5 @@ public class FootballDAO {
                 session.close();
             }
         }
-        return id;
     }
 }

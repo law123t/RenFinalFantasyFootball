@@ -12,19 +12,19 @@ public class Team {
     private String teamName;
 
     @Id
-    @GeneratedValue(generator="increment")
-    @GenericGenerator(name="increment", strategy = "increment")
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy = "increment")
     @Column(name = "team_id")
     private int teamid;
 
-    @Column(name = "status")
+    /*@Column(name = "status")
     @Enumerated
-    private Status status;
+    private Status status; */
 
     public Team() {
         this.teamName = teamName;
         this.teamid = teamid;
-        this.status = status;
+        //this.status = status;
     }
 
     public String getTeamName() {
@@ -40,10 +40,11 @@ public class Team {
     }
 
     public void setTeamid(int teamid) {
-        this.teamid = teamid ;
+        this.teamid = teamid;
     }
+}
 
-    public Status getStatus() {
+   /* public Status getStatus() {
         return status;
     }
 
@@ -52,4 +53,4 @@ public class Team {
     }
 
 
-}
+}*/
