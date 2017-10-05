@@ -41,6 +41,8 @@ public class FootballDAOTest {
         assertTrue("team1 is null", !team2.equals(null));
         assertTrue("size is incorrect", teams.size() > 1);
         for (Team teamArray : teams) {
+
+            assertTrue("team is null", !teamArray.equals(null));
             logger.info(teamArray.getTeamName());
         }
     }
@@ -93,10 +95,11 @@ public class FootballDAOTest {
         Team teamSelect = footballDAO.getTeamById(id);
         logger.info(team);
         teamSelect.setTeamName("Chargers");
-        footballDAO.update(team);
+        footballDAO.update(teamSelect);
+        teamSelect = footballDAO.getTeamById(id);
 
         assertTrue("team is null", !teamSelect.equals(null));
-        assertEquals("team is null", "Chargers",  teamSelect.getTeamName());
+        assertEquals("team is not changed", "Chargers",  teamSelect.getTeamName());
 
         logger.info("test finished");
 
