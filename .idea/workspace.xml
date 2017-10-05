@@ -94,8 +94,8 @@
       <file leaf-file-name="FootballDAOTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/matc/entjava/indivproj/persistence/FootballDAOTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+            <state relative-caret-position="262">
+              <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,6 +213,11 @@
               <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -237,21 +242,21 @@
       <recent name="edu.matc.entjava.indivproj.entity" />
       <recent name="edu.matc.entjava.indivproj.persistence" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball\images" />
+      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball\src\test\java\edu\matc\entjava\indivproj\entity" />
+      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball-master\src\main\webapp" />
+      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball-master\src\main\resources" />
+      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball-master\src\main\java\edu\matc\entjava\indivproj\controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.matc.entjava.indivproj.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball\src\test\resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball\src\test\java\edu\matc\entjava\indivproj\entity" />
-      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball-master\src\main\webapp" />
-      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball-master\src\main\resources" />
-      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball-master\src\main\java\edu\matc\entjava\indivproj\controller" />
-      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball-master\src\main\java\edu\matc\entjava\indivproj\entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -504,7 +509,7 @@
       <workItem from="1507046861115" duration="6132000" />
       <workItem from="1507066124535" duration="2637000" />
       <workItem from="1507071704836" duration="3170000" />
-      <workItem from="1507142320957" duration="4490000" />
+      <workItem from="1507142320957" duration="4624000" />
     </task>
     <servers />
   </component>
@@ -541,7 +546,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19349000" />
+    <option name="totallyTimeSpent" value="19483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -889,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/matc/entjava/indivproj/persistence/FootballDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
