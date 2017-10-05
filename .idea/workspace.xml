@@ -107,8 +107,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+              <first_editor relative-caret-position="612">
+                <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -130,7 +130,7 @@
         </entry>
       </file>
       <file leaf-file-name="databasedesign.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/databasedesign.md">
+        <entry file="file://$PROJECT_DIR$/databasedesign.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="170">
@@ -269,22 +269,6 @@
               <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalfantasyfootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalFantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="Screens" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -310,11 +294,11 @@
       <recent name="edu.matc.entjava.indivproj.persistence" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball" />
       <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball\images\Screens" />
       <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball\images" />
       <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball\src\test\java\edu\matc\entjava\indivproj\entity" />
       <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball-master\src\main\webapp" />
-      <recent name="C:\Users\Ren\Documents\GitHub\FinalFantasyFootball-master\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -651,7 +635,7 @@
       <workItem from="1507046861115" duration="6132000" />
       <workItem from="1507066124535" duration="2637000" />
       <workItem from="1507071704836" duration="3170000" />
-      <workItem from="1507142320957" duration="7105000" />
+      <workItem from="1507142320957" duration="7260000" />
     </task>
     <servers />
   </component>
@@ -688,7 +672,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21964000" />
+    <option name="totallyTimeSpent" value="22119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1067,7 +1051,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/databasedesign.md">
+    <entry file="file://$PROJECT_DIR$/databasedesign.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="170">
@@ -1081,8 +1065,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <first_editor relative-caret-position="612">
+            <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
