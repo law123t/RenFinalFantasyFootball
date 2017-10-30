@@ -1,0 +1,8 @@
+<Context docBase="FinalFantasyFootball-master" path="/FinalFantasyFootball-master" reloadable="true">
+    <Realm className="org.apache.catalina.realm.JDBCRealm"
+           driverName="com.mysql.jdbc.Driver"
+           connectionURL="jdbc:mysql://localhost:3306/ind_proj?user=tomcat&amp;password=tomcat"
+           userTable="users" userNameCol="user_name" userCredCol="user_pass"
+           userRoleTable="user_roles" roleNameCol="role_name" >
+    </Realm>
+</Context>

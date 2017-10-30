@@ -15,6 +15,8 @@ public class FootballDAOTest {
     FootballDAO footballDAO;
     Team team;
     Team team2;
+    Team team3;
+    Team team4;
     Status status;
 
     @Before
@@ -23,18 +25,21 @@ public class FootballDAOTest {
         footballDAO = new FootballDAO();
         team = new Team();
         team2 = new Team();
+        team3 = new Team();
+        team4 = new Team();
 
         team.setTeamName("Packers");
-
         team2.setTeamName("Bears");
+        team3.setTeamName("Vikings");
+        team4.setTeamName("Lions");
+
+        footballDAO.insert(team);
+        footballDAO.insert(team2);
+        footballDAO.insert(team3);
     }
 
     @Test
     public void getAllTeamsTest() {
-        footballDAO.insert(team);
-        footballDAO.insert(team2);
-        logger.info(team.getTeamid());
-        logger.info(team.getTeamName());
         List<Team> teams = footballDAO.getAllTeams();
         logger.info("size is " + teams.size());
         assertTrue("team1 is null", !team.equals(null));
@@ -50,7 +55,6 @@ public class FootballDAOTest {
     //Wipe database before execute
     @Test
     public void getTeamByIdTest(){
-        footballDAO.insert(team);
         logger.info(team.getTeamid());
         logger.info(team.getTeamName());
         Team teamSelect = footballDAO.getTeamById(1);
@@ -65,7 +69,6 @@ public class FootballDAOTest {
 
     @Test
     public void getTeamByNameTest(){
-        footballDAO.insert(team);
         logger.info(team.getTeamid());
         logger.info(team.getTeamName());
         List<Team> teamSelect = footballDAO.getByTeamName("Packers");
@@ -82,15 +85,14 @@ public class FootballDAOTest {
 
     @Test
     public void insertTest() {
-        int footballteam = footballDAO.insert(team);
+        int footballteam = footballDAO.insert(team4);
 
         assertTrue("team not inserted", footballteam != 0);
     }
 
     @Test
     public void updateTest() {
-        footballDAO.insert(team);
-        int id = 1;
+        int id = 4;
 
         Team teamSelect = footballDAO.getTeamById(id);
         logger.info(team);
@@ -114,7 +116,6 @@ public class FootballDAOTest {
         List<Team> teams = footballDAO.getAllTeams();
         Team teamSelect = footballDAO.getTeamById(id);
 
-        assertEquals("team is not null", 0, teams.size());
         assertEquals("team id 1 exists", null, teamSelect);
 
     }

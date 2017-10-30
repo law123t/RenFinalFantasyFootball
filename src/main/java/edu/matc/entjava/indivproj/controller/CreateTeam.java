@@ -24,7 +24,7 @@ public class CreateTeam extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         FootballDAO teamdao = new FootballDAO();
         //req.setAttribute("Team", teamdao./**TODO run method**/());
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/createresults.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/createResults.jsp");
         dispatcher.forward(req, resp);
     }
 }

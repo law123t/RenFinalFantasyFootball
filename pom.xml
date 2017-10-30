@@ -4,7 +4,7 @@
   <groupId>edu.matc.entjava.indivproj</groupId>
   <artifactId>finalfantasyfootball</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <name>finalfantasyfootball</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -33,8 +33,8 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.39</version>
+      <scope>compile</scope>
     </dependency>
-
     <dependency>
       <groupId>javax</groupId>
       <artifactId>javaee-web-api</artifactId>
@@ -62,5 +62,7 @@
       </configuration>
     </plugin>
   </plugins>
+
+
 </build>
 </project>

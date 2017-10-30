@@ -23,7 +23,7 @@ public class Database {
     private void loadProperties() {
         properties = new Properties();
         try {
-            properties.load (this.getClass().getResourceAsStream("/database.properties"));
+            properties.load (this.getClass().getResourceAsStream("/images/database.properties"));
         } catch (IOException ioe) {
             System.out.println("Database.loadProperties()...Cannot load the properties file");
             ioe.printStackTrace();
