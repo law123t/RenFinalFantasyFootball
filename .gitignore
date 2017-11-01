@@ -1,0 +1,5 @@
+#gitignore
+FinalFantasyFootball-master.iml
+.idea/*
+sql/
+target/*
